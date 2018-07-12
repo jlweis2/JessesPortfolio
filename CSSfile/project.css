@@ -1,0 +1,144 @@
+body{
+    background-color: aqua;
+}
+#mainContent{
+    border: solid;
+    margin: 4.5% 8% 10% 14%;
+    padding: 0 0 2em 0;
+    background-color: white;
+   
+}
+#name{
+    position: relative;
+    left: 25%;
+    padding-top: 15px;
+    font-size: 7em;
+}
+/*headliner to the page starts with Aspiring*/
+#headliner{
+    font-size: 1.5em;
+    margin-left: 37%;
+    padding-top: .5em;
+    
+}
+.mainPointsOfInterest{
+    font-size: 2em;
+    position: relative;
+    top: 2em;
+    left: 2em;
+}
+#paragraphAboutMe{
+    text-indent: 50px;
+    width: 45%;
+    position: relative;
+    left: 300px;
+
+    top: 30px;
+    line-height: 20px;
+}
+
+/* Education content*/
+#dateOfEducation{
+    position: relative;
+    top:  40px;
+    left: 300px;
+    
+}
+#majorContentOfEducation{
+    position: relative;
+    top: 15px;
+    left: 550px;
+}
+#majorContentOfEducation h2{
+    font-size: 30px;
+}
+
+/* Technology Experience content*/
+#technologyExperience ul{
+    position: relative;
+    top: 0px;
+    left: 470px;
+}
+
+/* Projects content*/
+#projects ul {
+    position: relative;
+    top: 35px;
+    left: 320px;
+}
+.wordsAboveLink{
+    list-style:  none;
+}
+
+/* Job History content*/
+.allAboutJobs {
+    position: relative;
+    top: 20px;
+    left: 450px;
+
+}
+.allAboutJobs ul{
+    width: 40%;
+    position: relative;
+    left: 20px;
+}
+.allAboutJobs h2{
+    font-size: 25px;
+}
+.allAboutJobs h5{
+    font-size: 15px;
+    position: relative;
+    top: -15px;
+    line-height: 0px;
+}
+.jobDates{
+    position: relative;
+    top: 37px;
+    left: 300px;
+
+}
+#memorialUnionContent ul{
+    position: relative;
+    top: -20px;
+}
+#ocso ul{
+    position: relative;
+    top: -20px;
+}
+
+/* words in the Navbar*/
+#navbar{
+    overflow: hidden;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+/* Navbar links */
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    
+    display: inline-block;
+    color: #f2f2f2;
+    padding: 25px;
+    text-decoration: none;
+
+}
+
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content{
+    padding-top: 60px;
+}
